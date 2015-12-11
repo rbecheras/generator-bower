@@ -1,6 +1,6 @@
 {
   "name": "generator-bower-component",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Generator to create bower components",
   "homepage": "http://gitlab.sirap.fr/SWAP/generator-bower-component",
   "author": {
