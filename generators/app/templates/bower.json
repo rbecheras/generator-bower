@@ -1,0 +1,22 @@
+{
+  "name": "<%= componentName %>",
+  "version": "0.1.0",
+  "authors": [
+    "<%= authorName %> <<%= authorEmail %>>"
+  ],
+  "description": "<%= componentDescription %>",
+  "main": "<%= componentName %>.js",
+  "keywords": [
+    "bower",
+    "component",
+    <% for(var i in keywords){ %>"<%= keywords[i] %>"<%if(i<keywords.length-1){%>,<%}%><% } %>
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
